@@ -33,7 +33,7 @@ export class SharedModule { }
       ]
     }),
     DynamicComponentModule.forRoot({
-      imports: [SharedModule]
+      imports: [CommonModule]
     }),
   ],
   declarations: [
